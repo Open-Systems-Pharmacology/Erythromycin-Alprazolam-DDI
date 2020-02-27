@@ -1503,374 +1503,53 @@
         }
       ],
       "TimeUnit": "h"
-    }
-  ],
-  "Simulations": [
+    },
     {
-      "Name": "Yasui1996_Control",
-      "Model": "4Comp",
-      "ObservedData": [
-        "Yasui 1996 - Treatment with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=12)"
-      ],
-      "Solver": {},
-      "OutputSchema": [
+      "Name": "Yasui1996_Alprazolam_PO_0.8mg",
+      "DosingInterval": "Single",
+      "Schemas": [
         {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 0.8,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
           "Parameters": [
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 170.0,
               "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h",
               "ValueOrigin": {
                 "Source": "Unknown"
               }
             }
           ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 170.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 173.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 173.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 218.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
-            }
-          ]
         }
       ],
-      "Parameters": [
-        {
-          "Path": "Applications|Yasui1996_Alprazolam_PO_0.8mg_170h|Xanax_Weibull|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)"
-      ],
-      "Individual": "European (P-gp modified, CYP3A4 36 h)",
-      "Compounds": [
-        {
-          "Name": "Alprazolam",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Optimized",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "CYP3A4-alpha-OH pathway",
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "Name": "CYP3A4-4-OH pathway",
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "Name": "Glomerular Filtration-GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "Yasui1996_Alprazolam_PO_0.8mg_170h",
-            "Formulations": [
-              {
-                "Name": "Xanax_Weibull",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Yasui1996_Control-Alprazolam-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Yasui1996_Control|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Yasui 1996 - Treatment with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=12)-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Yasui 1996 - Treatment with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=12)|Time",
-              "Y": "Yasui 1996 - Treatment with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis",
-          "OriginText": "Erythromycin-Alprazolam-DDI_NEW\nYasui1996_Control\n2019-11-07 16:25"
-        }
-      ]
-    },
+      "TimeUnit": "h"
+    }
+  ],
+  "Simulations": [
     {
       "Name": "Yasui1996_Perpetrator",
       "Model": "4Comp",
@@ -2435,6 +2114,340 @@
           "CompoundName": "Erythromycin"
         }
       ]
+    },
+    {
+      "Name": "Yasui1996_Control",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Yasui 1996 - Treatment with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=12)"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 48.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Yasui1996_Alprazolam_PO_0.8mg|Xanax_Weibull|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
+      "Compounds": [
+        {
+          "Name": "Alprazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-alpha-OH pathway",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP3A4-4-OH pathway",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Yasui1996_Alprazolam_PO_0.8mg",
+            "Formulations": [
+              {
+                "Name": "Xanax_Weibull",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Yasui1996_Control-Alprazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Yasui1996_Control|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Yasui 1996 - Treatment with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=12)-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Yasui 1996 - Treatment with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Yasui 1996 - Treatment with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Erythromycin-Alprazolam-DDI\nYasui1996_Control\n2020-02-27 14:42"
+        }
+      ]
     }
   ],
   "ObservedData": [
@@ -2695,18 +2708,18 @@
           "Date": "0001-01-01T00:00:00"
         },
         "Values": [
-          170.5,
-          171.0,
-          172.0,
-          173.0,
-          174.0,
-          176.0,
-          178.0,
-          180.0,
-          182.0,
-          194.0,
-          206.0,
-          218.0
+          0.5,
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          6.0,
+          8.0,
+          10.0,
+          12.0,
+          24.0,
+          36.0,
+          48.0
         ],
         "Dimension": "Time",
         "Unit": "h"
