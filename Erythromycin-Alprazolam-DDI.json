@@ -1369,7 +1369,7 @@
       ]
     },
     {
-      "Name": "Xanax_Weibull",
+      "Name": "Xanax_IR",
       "FormulationType": "Formulation_Tablet_Weibull",
       "Parameters": [
         {
@@ -1603,7 +1603,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Yasui1996_Alprazolam_PO_0.8mg|Xanax_Weibull|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Yasui1996_Alprazolam_PO_0.8mg|Xanax_IR|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -1818,7 +1818,7 @@
             "Name": "Yasui1996_Alprazolam_PO_0.8mg",
             "Formulations": [
               {
-                "Name": "Xanax_Weibull",
+                "Name": "Xanax_IR",
                 "Key": "Formulation"
               }
             ]
@@ -1968,7 +1968,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Yasui1996_Alprazolam_PO_0.8mg_170h|Xanax_Weibull|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Yasui1996_Alprazolam_PO_0.8mg_170h|Xanax_IR|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -2334,7 +2334,7 @@
             "Name": "Yasui1996_Alprazolam_PO_0.8mg_170h",
             "Formulations": [
               {
-                "Name": "Xanax_Weibull",
+                "Name": "Xanax_IR",
                 "Key": "Formulation"
               }
             ]
@@ -2433,7 +2433,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Erythromycin-Alprazolam-DDI\nYasui1996_Perpetrator\n2020-02-27 15:29"
+          "OriginText": "Erythromycin-Alprazolam-DDI\nYasui1996_Perpetrator\n2020-02-28 11:17"
         }
       ],
       "Interactions": [
