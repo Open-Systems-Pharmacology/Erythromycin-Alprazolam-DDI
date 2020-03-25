@@ -2,30 +2,21 @@
   "Version": 76,
   "Individuals": [
     {
-      "Name": "European (P-gp modified, CYP3A4 36 h)",
-      "Seed": 17189110,
+      "Name": "Japanese (Yasui studies)",
+      "Seed": -2063117500,
       "OriginData": {
         "CalculationMethods": [
           "SurfaceAreaPlsInt_VAR1",
           "Body surface area - Mosteller"
         ],
         "Species": "Human",
-        "Population": "European_ICRP_2002",
+        "Population": "Japanese_Population",
         "Gender": "MALE",
         "Age": {
           "Value": 30.0,
           "Unit": "year(s)"
         }
       },
-      "Parameters": [
-        {
-          "Path": "Organism|Liver|EHC continuous fraction",
-          "Value": 1.0,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        }
-      ],
       "Molecules": [
         {
           "Name": "CYP3A4",
@@ -36,57 +27,103 @@
           "Expression": [
             {
               "Name": "Brain",
-              "Value": 0.0041682898325
+              "Value": 0.0041682898325,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Gonads",
-              "Value": 0.00078691079081
+              "Value": 0.00078691079081,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Kidney",
-              "Value": 0.0053603428126
+              "Value": 0.0053603428126,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Periportal",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Pericentral",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Lung",
-              "Value": 0.00042695753798
+              "Value": 0.00042695753798,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "SmallIntestine",
-              "Value": 0.0727697702
+              "Value": 0.0727697702,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Duodenum",
-              "Value": 0.0727697702
+              "Value": 0.0727697702,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "UpperJejunum",
-              "Value": 0.0727697702
+              "Value": 0.0727697702,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "LowerJejunum",
-              "Value": 0.0727697702
+              "Value": 0.0727697702,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "UpperIleum",
-              "Value": 0.0727697702
+              "Value": 0.0727697702,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "LowerIleum",
-              "Value": 0.0727697702
+              "Value": 0.0727697702,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             }
           ],
           "Ontogeny": {
             "Name": "CYP3A4"
           },
           "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 3.4842311024,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+              }
+            },
             {
               "Name": "t1/2 (liver)",
               "Value": 36.0,
@@ -106,103 +143,178 @@
           "Expression": [
             {
               "Name": "BloodCells",
-              "Value": 3.9102564103E-05
+              "Value": 3.9102564103E-05,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Plasma",
-              "Value": 3.9102564103E-05
+              "Value": 3.9102564103E-05,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Bone",
-              "Value": 4.8717948718E-05
+              "Value": 4.8717948718E-05,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Brain",
-              "Value": 3.9743589744E-05
+              "Value": 3.9743589744E-05,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Gonads",
-              "Value": 0.0011923076923
+              "Value": 0.0011923076923,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Heart",
-              "Value": 0.0026602564103
+              "Value": 0.0026602564103,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Kidney",
-              "Value": 5.7051282051E-05
+              "Value": 5.7051282051E-05,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Periportal",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Pericentral",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Lung",
-              "Value": 0.0269230769
+              "Value": 0.0269230769,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Muscle",
-              "Value": 0.00020833333333
+              "Value": 0.00020833333333,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Pancreas",
-              "Value": 0.1474358974
+              "Value": 0.1474358974,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Spleen",
-              "Value": 0.00037115384615
+              "Value": 0.00037115384615,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Stomach",
-              "Value": 0.0775641026
+              "Value": 0.0775641026,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "SmallIntestine",
-              "Value": 0.2544871795
+              "Value": 0.2544871795,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "LargeIntestine",
-              "Value": 0.00010384615385
+              "Value": 0.00010384615385,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Duodenum",
-              "Value": 0.2544871795
+              "Value": 0.2544871795,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "UpperJejunum",
-              "Value": 0.2544871795
+              "Value": 0.2544871795,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "LowerJejunum",
-              "Value": 0.2544871795
+              "Value": 0.2544871795,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "UpperIleum",
-              "Value": 0.2544871795
+              "Value": 0.2544871795,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "LowerIleum",
-              "Value": 0.2544871795
+              "Value": 0.2544871795,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "ColonAscendens",
-              "Value": 0.00010384615385
+              "Value": 0.00010384615385,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "ColonTransversum",
-              "Value": 0.00010384615385
+              "Value": 0.00010384615385,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "ColonDescendens",
-              "Value": 0.00010384615385
+              "Value": 0.00010384615385,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "ColonSigmoid",
-              "Value": 0.00010384615385
+              "Value": 0.00010384615385,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             }
           ]
         },
@@ -214,117 +326,186 @@
             {
               "Name": "Bone",
               "MembraneLocation": "Basolateral",
-              "Value": 0.0341950646
+              "Value": 0.0341950646,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Brain",
               "MembraneLocation": "BloodBrainBarrier",
-              "Value": 0.1072855464
+              "Value": 0.1072855464,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Gonads",
               "MembraneLocation": "Basolateral",
-              "Value": 0.024559342
+              "Value": 0.024559342,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Heart",
               "MembraneLocation": "Basolateral",
-              "Value": 0.059106933
+              "Value": 0.059106933,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Kidney",
               "MembraneLocation": "Apical",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Periportal",
               "MembraneLocation": "Apical",
-              "Value": 0.2702702703
+              "Value": 0.2702702703,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Pericentral",
               "MembraneLocation": "Apical",
-              "Value": 0.2702702703
+              "Value": 0.2702702703,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Lung",
               "MembraneLocation": "Basolateral",
-              "Value": 0.0927144536
+              "Value": 0.0927144536,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Muscle",
               "MembraneLocation": "Basolateral",
-              "Value": 0.0180963572
+              "Value": 0.0180963572,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Pancreas",
               "MembraneLocation": "Basolateral",
-              "Value": 0.0200940071
+              "Value": 0.0200940071,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Spleen",
               "MembraneLocation": "Basolateral",
-              "Value": 0.1047003525
+              "Value": 0.1047003525,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Stomach",
               "MembraneLocation": "Basolateral",
-              "Value": 0.0367802585
+              "Value": 0.0367802585,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "SmallIntestine",
               "MembraneLocation": "Basolateral",
-              "Value": 0.3960047004
+              "Value": 0.3960047004,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "LargeIntestine",
               "MembraneLocation": "Basolateral",
-              "Value": 0.1562867215
+              "Value": 0.1562867215,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Duodenum",
               "MembraneLocation": "Apical",
-              "Value": 1.41
+              "Value": 1.41,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "UpperJejunum",
               "MembraneLocation": "Apical",
-              "Value": 1.41
+              "Value": 1.41,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "LowerJejunum",
               "MembraneLocation": "Apical",
-              "Value": 1.41
+              "Value": 1.41,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "UpperIleum",
               "MembraneLocation": "Apical",
-              "Value": 1.41
+              "Value": 1.41,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "LowerIleum",
               "MembraneLocation": "Apical",
-              "Value": 1.41
+              "Value": 1.41,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "ColonAscendens",
               "MembraneLocation": "Apical",
-              "Value": 0.56
+              "Value": 0.56,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "ColonTransversum",
               "MembraneLocation": "Apical",
-              "Value": 0.56
+              "Value": 0.56,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "ColonDescendens",
               "MembraneLocation": "Apical",
-              "Value": 0.56
+              "Value": 0.56,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "ColonSigmoid",
               "MembraneLocation": "Apical",
-              "Value": 0.56
+              "Value": 0.56,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             }
           ],
           "Ontogeny": {
@@ -603,37 +784,58 @@
             {
               "Name": "Brain",
               "MembraneLocation": "BloodBrainBarrier",
-              "Value": 0.00014166666667
+              "Value": 0.00014166666667,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Gonads",
               "MembraneLocation": "Basolateral",
-              "Value": 0.0141666667
+              "Value": 0.0141666667,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Heart",
               "MembraneLocation": "Basolateral",
-              "Value": 0.0008253968254
+              "Value": 0.0008253968254,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Periportal",
               "MembraneLocation": "Basolateral",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Pericentral",
               "MembraneLocation": "Basolateral",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Lung",
               "MembraneLocation": "Basolateral",
-              "Value": 4.0079365079E-05
+              "Value": 4.0079365079E-05,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Muscle",
               "MembraneLocation": "Basolateral",
-              "Value": 0.00064682539683
+              "Value": 0.00064682539683,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             }
           ]
         },
@@ -646,99 +848,171 @@
           "Expression": [
             {
               "Name": "Bone",
-              "Value": 0.0062154033171
+              "Value": 0.0062154033171,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Brain",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Gonads",
-              "Value": 0.0508741242
+              "Value": 0.0508741242,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Heart",
-              "Value": 0.3179118843
+              "Value": 0.3179118843,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Kidney",
-              "Value": 0.0158938619
+              "Value": 0.0158938619,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Periportal",
-              "Value": 0.0223784807
+              "Value": 0.0223784807,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Pericentral",
-              "Value": 0.0223784807
+              "Value": 0.0223784807,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Lung",
-              "Value": 0.0272345453
+              "Value": 0.0272345453,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Muscle",
-              "Value": 0.7034193524
+              "Value": 0.7034193524,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Pancreas",
-              "Value": 0.0073903254795
+              "Value": 0.0073903254795,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Skin",
-              "Value": 0.0389467988
+              "Value": 0.0389467988,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Spleen",
-              "Value": 0.0103243118
+              "Value": 0.0103243118,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Stomach",
-              "Value": 0.0309435884
+              "Value": 0.0309435884,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "SmallIntestine",
-              "Value": 0.0501579923
+              "Value": 0.0501579923,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "LargeIntestine",
-              "Value": 0.0786998764
+              "Value": 0.0786998764,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Duodenum",
-              "Value": 0.0501579923
+              "Value": 0.0501579923,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "UpperJejunum",
-              "Value": 0.0501579923
+              "Value": 0.0501579923,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "LowerJejunum",
-              "Value": 0.0501579923
+              "Value": 0.0501579923,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "UpperIleum",
-              "Value": 0.0501579923
+              "Value": 0.0501579923,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "LowerIleum",
-              "Value": 0.0501579923
+              "Value": 0.0501579923,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "ColonAscendens",
-              "Value": 0.0786998764
+              "Value": 0.0786998764,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "ColonTransversum",
-              "Value": 0.0786998764
+              "Value": 0.0786998764,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "ColonDescendens",
-              "Value": 0.0786998764
+              "Value": 0.0786998764,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "ColonSigmoid",
-              "Value": 0.0786998764
+              "Value": 0.0786998764,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             }
           ],
           "Parameters": [
@@ -761,11 +1035,17 @@
           "Expression": [
             {
               "Name": "Periportal",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Pericentral",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             }
           ],
           "Ontogeny": {
@@ -791,7 +1071,10 @@
           "Expression": [
             {
               "Name": "Brain",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             }
           ],
           "Parameters": [
@@ -818,12 +1101,12 @@
           "Parameters": [
             {
               "Name": "Lipophilicity",
-              "Value": 2.0756837827,
+              "Value": 2.0799268917,
               "Unit": "Log Units",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
                 "Method": "ParameterIdentification",
-                "Description": "Value updated from 'Parameter Identification' on 2019-10-21 16:26"
+                "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
               }
             }
           ]
@@ -868,12 +1151,12 @@
           "Parameters": [
             {
               "Name": "Specific intestinal permeability (transcellular)",
-              "Value": 0.1369893967,
+              "Value": 7.6146060669,
               "Unit": "cm/min",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
                 "Method": "ParameterIdentification",
-                "Description": "Value updated from 'Parameter Identification' on 2019-10-21 16:26"
+                "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
               }
             }
           ]
@@ -916,12 +1199,12 @@
             },
             {
               "Name": "kcat",
-              "Value": 0.7777214266,
+              "Value": 0.8066945978,
               "Unit": "1/min",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
                 "Method": "ParameterIdentification",
-                "Description": "Value updated from 'Parameter Identification' on 2019-10-21 16:26"
+                "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
               }
             }
           ]
@@ -933,11 +1216,11 @@
           "Parameters": [
             {
               "Name": "GFR fraction",
-              "Value": 0.5426032482,
+              "Value": 0.5461456402,
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
                 "Method": "ParameterIdentification",
-                "Description": "Value updated from 'Parameter Identification' on 2019-10-21 16:26"
+                "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
               }
             }
           ]
@@ -969,12 +1252,12 @@
             },
             {
               "Name": "kcat",
-              "Value": 13.2390746671,
+              "Value": 13.7322820855,
               "Unit": "1/min",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
                 "Method": "ParameterIdentification",
-                "Description": "Value updated from 'Parameter Identification' on 2019-10-21 16:26"
+                "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
               }
             }
           ]
@@ -1181,16 +1464,6 @@
                 "Source": "Publication",
                 "Method": "InVitro",
                 "Description": "Average of reported values in the literature (PMID: 9107550 and PMID: 9566442)"
-              }
-            },
-            {
-              "Name": "kcat",
-              "Value": 8.5030863889,
-              "Unit": "1/min",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from 'Parameter Identification 1' on 2020-01-13 15:01"
               }
             }
           ]
@@ -1401,6 +1674,40 @@
           "Value": 1.0
         }
       ]
+    },
+    {
+      "Name": "Solanax",
+      "FormulationType": "Formulation_Tablet_Weibull",
+      "Parameters": [
+        {
+          "Name": "Dissolution time (50% dissolved)",
+          "Value": 35.8519725483,
+          "Unit": "min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+          }
+        },
+        {
+          "Name": "Lag time",
+          "Value": 0.0,
+          "Unit": "min"
+        },
+        {
+          "Name": "Dissolution shape",
+          "Value": 0.92,
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+          }
+        },
+        {
+          "Name": "Use as suspension",
+          "Value": 1.0
+        }
+      ]
     }
   ],
   "Protocols": [
@@ -1528,16 +1835,6 @@
                 }
               ]
             }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
           ]
         }
       ],
@@ -1603,191 +1900,235 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Yasui1996_Alprazolam_PO_0.8mg|Xanax_IR|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Yasui1996_Alprazolam_PO_0.8mg|Solanax|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         }
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)"
       ],
-      "Individual": "European (P-gp modified, CYP3A4 36 h)",
+      "Individual": "Japanese (Yasui studies)",
       "Compounds": [
         {
           "Name": "Alprazolam",
@@ -1818,7 +2159,7 @@
             "Name": "Yasui1996_Alprazolam_PO_0.8mg",
             "Formulations": [
               {
-                "Name": "Xanax_IR",
+                "Name": "Solanax",
                 "Key": "Formulation"
               }
             ]
@@ -1875,7 +2216,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Erythromycin-Alprazolam-DDI\nYasui1996_Control\n2020-02-27 14:42"
+          "OriginText": "Erythromycin-Alprazolam-DDI\nYasui1996_Control\n2020-03-25 18:31"
         }
       ]
     },
@@ -1968,7 +2309,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Yasui1996_Alprazolam_PO_0.8mg_170h|Xanax_IR|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Yasui1996_Alprazolam_PO_0.8mg_170h|Solanax|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -2124,178 +2465,222 @@
         },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         }
       ],
@@ -2303,7 +2688,7 @@
         "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)"
       ],
-      "Individual": "European (P-gp modified, CYP3A4 36 h)",
+      "Individual": "Japanese (Yasui studies)",
       "Compounds": [
         {
           "Name": "Alprazolam",
@@ -2334,7 +2719,7 @@
             "Name": "Yasui1996_Alprazolam_PO_0.8mg_170h",
             "Formulations": [
               {
-                "Name": "Xanax_IR",
+                "Name": "Solanax",
                 "Key": "Formulation"
               }
             ]
@@ -2433,7 +2818,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Erythromycin-Alprazolam-DDI\nYasui1996_Perpetrator\n2020-02-28 11:17"
+          "OriginText": "Erythromycin-Alprazolam-DDI\nYasui1996_Perpetrator\n2020-03-25 18:32"
         }
       ],
       "Interactions": [
