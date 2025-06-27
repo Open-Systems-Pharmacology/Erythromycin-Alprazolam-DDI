@@ -124,7 +124,7 @@
       "Type": "Enzyme",
       "Species": "Human",
       "Molecule": "AADAC",
-      "Category": "Japanese (Yasui studies)",
+      "Category": "European (P-gp modified, CYP3A4 36 h)",
       "Parameters": [
         {
           "Path": "AADAC|Reference concentration",
@@ -323,7 +323,7 @@
       "Type": "Transporter",
       "Species": "Human",
       "Molecule": "P-gp",
-      "Category": "Japanese (Yasui studies)",
+      "Category": "European (P-gp modified, CYP3A4 36 h)",
       "Parameters": [
         {
           "Path": "Organism|Bone|Intracellular|P-gp|Relative expression",
@@ -988,7 +988,7 @@
       "Type": "Transporter",
       "Species": "Human",
       "Molecule": "OATP1B1",
-      "Category": "Japanese (Yasui studies)",
+      "Category": "European (P-gp modified, CYP3A4 36 h)",
       "Parameters": [
         {
           "Path": "OATP1B1|Reference concentration",
@@ -1281,7 +1281,7 @@
       "Type": "OtherProtein",
       "Species": "Human",
       "Molecule": "ATP1A2",
-      "Category": "Japanese (Yasui studies)",
+      "Category": "European (P-gp modified, CYP3A4 36 h)",
       "Parameters": [
         {
           "Path": "ATP1A2|Reference concentration",
@@ -1476,7 +1476,7 @@
       "Type": "Enzyme",
       "Species": "Human",
       "Molecule": "UGT1A4",
-      "Category": "Japanese (Yasui studies)",
+      "Category": "European (P-gp modified, CYP3A4 36 h)",
       "Parameters": [
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|UGT1A4|Relative expression",
@@ -1520,7 +1520,7 @@
       "Type": "OtherProtein",
       "Species": "Human",
       "Molecule": "GABRG2",
-      "Category": "Japanese (Yasui studies)",
+      "Category": "European (P-gp modified, CYP3A4 36 h)",
       "Parameters": [
         {
           "Path": "GABRG2|Reference concentration",
@@ -1570,12 +1570,12 @@
       },
       "ExpressionProfiles": [
         "CYP3A4|Human|Japanese (Yasui studies)",
-        "AADAC|Human|Japanese (Yasui studies)",
-        "P-gp|Human|Japanese (Yasui studies)",
-        "OATP1B1|Human|Japanese (Yasui studies)",
-        "ATP1A2|Human|Japanese (Yasui studies)",
-        "UGT1A4|Human|Japanese (Yasui studies)",
-        "GABRG2|Human|Japanese (Yasui studies)"
+        "AADAC|Human|European (P-gp modified, CYP3A4 36 h)",
+        "P-gp|Human|European (P-gp modified, CYP3A4 36 h)",
+        "OATP1B1|Human|European (P-gp modified, CYP3A4 36 h)",
+        "ATP1A2|Human|European (P-gp modified, CYP3A4 36 h)",
+        "UGT1A4|Human|European (P-gp modified, CYP3A4 36 h)",
+        "GABRG2|Human|European (P-gp modified, CYP3A4 36 h)"
       ]
     }
   ],
